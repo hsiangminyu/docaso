@@ -117,6 +117,9 @@
     transform: rotate(359deg);
   }
 }
+.fa-cog {
+  color: #ef6b2b;
+}
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
