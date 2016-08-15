@@ -17,6 +17,7 @@
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  color: #ef6b2b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -62,7 +63,7 @@
 }
 .fa-border {
   padding: .2em .25em .15em;
-  border: solid 0.08em #eeeeee;
+  border: solid 0.08em #fff;
   border-radius: .1em;
 }
 .pull-right {
