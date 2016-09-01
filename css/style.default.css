@@ -31,7 +31,7 @@ NAVBAR
 .navbar ul.nav > li > a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   border-top: solid 3px transparent;
 }
@@ -93,9 +93,16 @@ UNIVERSAL SECTION STYLES
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+
+.section h2.title.orange {
+  color: #ef6b2b;
+}
+
 .section h2.title span {
   font-size: 40px;
 }
+
 @media (max-width: 767px) {
   .section h2.title {
     font-size: 40px;
@@ -151,8 +158,8 @@ UNIVERSAL SECTION STYLES
   }
 }
 .text-parallax {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   -webkit-backface-visibility: hidden;
 }
 .text-parallax.parallax-image1 {
@@ -167,6 +174,15 @@ UNIVERSAL SECTION STYLES
 p.lead {
   font-size: 30px;
   font-weight: 100;
+}
+
+title {
+  color: #ef6b2b;
+}
+
+h4{
+  font-size: 20px;
+  padding-top: 10px;
 }
 .text-thin {
   font-weight: 300;
@@ -297,14 +313,14 @@ SERVICES
   color: #999;
 }
 .services .heading {
-  font-size: 18px;
+  font-size: 23px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 900;
   margin-bottom: 20px;
 }
 .services p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 60px;
 }
@@ -352,6 +368,7 @@ TESTIMONIALS
 .testimonials .item .testimonial .text {
   color: #999999;
   margin-bottom: 40px;
+  font-size: 18px;
 }
 .testimonials .item .testimonial .bottom {
   position: absolute;
@@ -381,13 +398,13 @@ TESTIMONIALS
   text-align: right;
 }
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 .testimonials .item .testimonial .name-picture p {
   color: #999999;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 .testimonials .item .testimonial .name-picture img {
   float: right;
@@ -400,6 +417,20 @@ TESTIMONIALS
     width: 100%;
   }
 }
+
+/*
+=====================
+TEAM MEMBER
+=====================
+*/
+.team-member p.role{
+  font-size: 20px;
+}
+
+.team-member p.description{
+  font-size: 16px;
+}
+
 /*
 
 =====================
@@ -957,7 +988,7 @@ hr {
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   border-radius: 0;
   letter-spacing: 0.1em;
@@ -1011,8 +1042,8 @@ fieldset[disabled] .btn-primary.active {
   color: #ffffff;
 }
 .btn-lg {
-  padding: 10px 16px;
-  font-size: 18px;
+  padding: 15px 30px;
+  font-size: 24px;
   line-height: 1.33;
   border-radius: 0;
 }
