@@ -1,0 +1,20 @@
+/* your styles go here */
+/*
+	Ratings Stars
+	(with as little code as possible)
+*/
+=====================
+RATING STARS
+=====================
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: #ffd700;
+}
